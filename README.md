@@ -4,9 +4,11 @@ FFI to [GraphicsMagick's C Wand](http://www.graphicsmagick.org/wand/wand.html).
 
 
 ```shell
-jextract --dump-includes includes.sh --header-class-name magick_wand -l :/usr/lib/libGraphicsMagick.so -I /usr/include/GraphicsMagick/ --output src -t magick "<wand/magick_wand.h>"
-jextract @includes.sh --header-class-name magick_wand -l :/usr/lib/libGraphicsMagick.so -I /usr/include/GraphicsMagick/ --output src -t magick "<wand/magick_wand.h>"
+jextract --dump-includes includes.sh --header-class-name magick_wand -l :/usr/lib/libGraphicsMagickWand.so -I /usr/include/GraphicsMagick/ --output src -t magick "<wand/magick_wand.h>"
+jextract @resources/includes.sh --header-class-name magick_wand -l :/usr/lib/libGraphicsMagickWand.so -I /usr/include/GraphicsMagick/ --output src -t magick "<wand/magick_wand.h>"
 ```
+
+- TODO: change library to `-l GraphicsMagickWand`
 
 ## License
 

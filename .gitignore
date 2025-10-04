@@ -15,3 +15,4 @@ target/
 ### ignore caches
 .lsp/
 .clj-kondo/
+*.log
