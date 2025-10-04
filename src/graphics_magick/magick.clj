@@ -1,0 +1,1 @@
+(ns graphics-magick.magick)
