@@ -426,6 +426,528 @@ public class magick_wand {
            throw new AssertionError("should not reach here", ex$);
         }
     }
+    private static final int UndefinedException = (int)0L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.UndefinedException = 0
+     * }
+     */
+    public static int UndefinedException() {
+        return UndefinedException;
+    }
+    private static final int WarningException = (int)300L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.WarningException = 300
+     * }
+     */
+    public static int WarningException() {
+        return WarningException;
+    }
+    private static final int ResourceLimitWarning = (int)302L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ResourceLimitWarning = 302
+     * }
+     */
+    public static int ResourceLimitWarning() {
+        return ResourceLimitWarning;
+    }
+    private static final int TypeWarning = (int)305L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.TypeWarning = 305
+     * }
+     */
+    public static int TypeWarning() {
+        return TypeWarning;
+    }
+    private static final int OptionWarning = (int)310L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.OptionWarning = 310
+     * }
+     */
+    public static int OptionWarning() {
+        return OptionWarning;
+    }
+    private static final int DelegateWarning = (int)315L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.DelegateWarning = 315
+     * }
+     */
+    public static int DelegateWarning() {
+        return DelegateWarning;
+    }
+    private static final int MissingDelegateWarning = (int)320L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.MissingDelegateWarning = 320
+     * }
+     */
+    public static int MissingDelegateWarning() {
+        return MissingDelegateWarning;
+    }
+    private static final int CorruptImageWarning = (int)325L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CorruptImageWarning = 325
+     * }
+     */
+    public static int CorruptImageWarning() {
+        return CorruptImageWarning;
+    }
+    private static final int FileOpenWarning = (int)330L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.FileOpenWarning = 330
+     * }
+     */
+    public static int FileOpenWarning() {
+        return FileOpenWarning;
+    }
+    private static final int BlobWarning = (int)335L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.BlobWarning = 335
+     * }
+     */
+    public static int BlobWarning() {
+        return BlobWarning;
+    }
+    private static final int StreamWarning = (int)340L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.StreamWarning = 340
+     * }
+     */
+    public static int StreamWarning() {
+        return StreamWarning;
+    }
+    private static final int CacheWarning = (int)345L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CacheWarning = 345
+     * }
+     */
+    public static int CacheWarning() {
+        return CacheWarning;
+    }
+    private static final int CoderWarning = (int)350L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CoderWarning = 350
+     * }
+     */
+    public static int CoderWarning() {
+        return CoderWarning;
+    }
+    private static final int ModuleWarning = (int)355L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ModuleWarning = 355
+     * }
+     */
+    public static int ModuleWarning() {
+        return ModuleWarning;
+    }
+    private static final int DrawWarning = (int)360L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.DrawWarning = 360
+     * }
+     */
+    public static int DrawWarning() {
+        return DrawWarning;
+    }
+    private static final int ImageWarning = (int)365L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ImageWarning = 365
+     * }
+     */
+    public static int ImageWarning() {
+        return ImageWarning;
+    }
+    private static final int XServerWarning = (int)380L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.XServerWarning = 380
+     * }
+     */
+    public static int XServerWarning() {
+        return XServerWarning;
+    }
+    private static final int MonitorWarning = (int)385L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.MonitorWarning = 385
+     * }
+     */
+    public static int MonitorWarning() {
+        return MonitorWarning;
+    }
+    private static final int RegistryWarning = (int)390L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.RegistryWarning = 390
+     * }
+     */
+    public static int RegistryWarning() {
+        return RegistryWarning;
+    }
+    private static final int ConfigureWarning = (int)395L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ConfigureWarning = 395
+     * }
+     */
+    public static int ConfigureWarning() {
+        return ConfigureWarning;
+    }
+    private static final int ErrorException = (int)400L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ErrorException = 400
+     * }
+     */
+    public static int ErrorException() {
+        return ErrorException;
+    }
+    private static final int ResourceLimitError = (int)402L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ResourceLimitError = 402
+     * }
+     */
+    public static int ResourceLimitError() {
+        return ResourceLimitError;
+    }
+    private static final int TypeError = (int)405L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.TypeError = 405
+     * }
+     */
+    public static int TypeError() {
+        return TypeError;
+    }
+    private static final int OptionError = (int)410L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.OptionError = 410
+     * }
+     */
+    public static int OptionError() {
+        return OptionError;
+    }
+    private static final int DelegateError = (int)415L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.DelegateError = 415
+     * }
+     */
+    public static int DelegateError() {
+        return DelegateError;
+    }
+    private static final int MissingDelegateError = (int)420L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.MissingDelegateError = 420
+     * }
+     */
+    public static int MissingDelegateError() {
+        return MissingDelegateError;
+    }
+    private static final int CorruptImageError = (int)425L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CorruptImageError = 425
+     * }
+     */
+    public static int CorruptImageError() {
+        return CorruptImageError;
+    }
+    private static final int FileOpenError = (int)430L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.FileOpenError = 430
+     * }
+     */
+    public static int FileOpenError() {
+        return FileOpenError;
+    }
+    private static final int BlobError = (int)435L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.BlobError = 435
+     * }
+     */
+    public static int BlobError() {
+        return BlobError;
+    }
+    private static final int StreamError = (int)440L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.StreamError = 440
+     * }
+     */
+    public static int StreamError() {
+        return StreamError;
+    }
+    private static final int CacheError = (int)445L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CacheError = 445
+     * }
+     */
+    public static int CacheError() {
+        return CacheError;
+    }
+    private static final int CoderError = (int)450L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CoderError = 450
+     * }
+     */
+    public static int CoderError() {
+        return CoderError;
+    }
+    private static final int ModuleError = (int)455L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ModuleError = 455
+     * }
+     */
+    public static int ModuleError() {
+        return ModuleError;
+    }
+    private static final int DrawError = (int)460L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.DrawError = 460
+     * }
+     */
+    public static int DrawError() {
+        return DrawError;
+    }
+    private static final int ImageError = (int)465L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ImageError = 465
+     * }
+     */
+    public static int ImageError() {
+        return ImageError;
+    }
+    private static final int XServerError = (int)480L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.XServerError = 480
+     * }
+     */
+    public static int XServerError() {
+        return XServerError;
+    }
+    private static final int MonitorError = (int)485L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.MonitorError = 485
+     * }
+     */
+    public static int MonitorError() {
+        return MonitorError;
+    }
+    private static final int RegistryError = (int)490L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.RegistryError = 490
+     * }
+     */
+    public static int RegistryError() {
+        return RegistryError;
+    }
+    private static final int ConfigureError = (int)495L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ConfigureError = 495
+     * }
+     */
+    public static int ConfigureError() {
+        return ConfigureError;
+    }
+    private static final int FatalErrorException = (int)700L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.FatalErrorException = 700
+     * }
+     */
+    public static int FatalErrorException() {
+        return FatalErrorException;
+    }
+    private static final int ResourceLimitFatalError = (int)702L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ResourceLimitFatalError = 702
+     * }
+     */
+    public static int ResourceLimitFatalError() {
+        return ResourceLimitFatalError;
+    }
+    private static final int TypeFatalError = (int)705L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.TypeFatalError = 705
+     * }
+     */
+    public static int TypeFatalError() {
+        return TypeFatalError;
+    }
+    private static final int OptionFatalError = (int)710L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.OptionFatalError = 710
+     * }
+     */
+    public static int OptionFatalError() {
+        return OptionFatalError;
+    }
+    private static final int DelegateFatalError = (int)715L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.DelegateFatalError = 715
+     * }
+     */
+    public static int DelegateFatalError() {
+        return DelegateFatalError;
+    }
+    private static final int MissingDelegateFatalError = (int)720L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.MissingDelegateFatalError = 720
+     * }
+     */
+    public static int MissingDelegateFatalError() {
+        return MissingDelegateFatalError;
+    }
+    private static final int CorruptImageFatalError = (int)725L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CorruptImageFatalError = 725
+     * }
+     */
+    public static int CorruptImageFatalError() {
+        return CorruptImageFatalError;
+    }
+    private static final int FileOpenFatalError = (int)730L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.FileOpenFatalError = 730
+     * }
+     */
+    public static int FileOpenFatalError() {
+        return FileOpenFatalError;
+    }
+    private static final int BlobFatalError = (int)735L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.BlobFatalError = 735
+     * }
+     */
+    public static int BlobFatalError() {
+        return BlobFatalError;
+    }
+    private static final int StreamFatalError = (int)740L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.StreamFatalError = 740
+     * }
+     */
+    public static int StreamFatalError() {
+        return StreamFatalError;
+    }
+    private static final int CacheFatalError = (int)745L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CacheFatalError = 745
+     * }
+     */
+    public static int CacheFatalError() {
+        return CacheFatalError;
+    }
+    private static final int CoderFatalError = (int)750L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.CoderFatalError = 750
+     * }
+     */
+    public static int CoderFatalError() {
+        return CoderFatalError;
+    }
+    private static final int ModuleFatalError = (int)755L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ModuleFatalError = 755
+     * }
+     */
+    public static int ModuleFatalError() {
+        return ModuleFatalError;
+    }
+    private static final int DrawFatalError = (int)760L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.DrawFatalError = 760
+     * }
+     */
+    public static int DrawFatalError() {
+        return DrawFatalError;
+    }
+    private static final int ImageFatalError = (int)765L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ImageFatalError = 765
+     * }
+     */
+    public static int ImageFatalError() {
+        return ImageFatalError;
+    }
+    private static final int XServerFatalError = (int)780L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.XServerFatalError = 780
+     * }
+     */
+    public static int XServerFatalError() {
+        return XServerFatalError;
+    }
+    private static final int MonitorFatalError = (int)785L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.MonitorFatalError = 785
+     * }
+     */
+    public static int MonitorFatalError() {
+        return MonitorFatalError;
+    }
+    private static final int RegistryFatalError = (int)790L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.RegistryFatalError = 790
+     * }
+     */
+    public static int RegistryFatalError() {
+        return RegistryFatalError;
+    }
+    private static final int ConfigureFatalError = (int)795L;
+    /**
+     * {@snippet lang=c :
+     * enum <anonymous>.ConfigureFatalError = 795
+     * }
+     */
+    public static int ConfigureFatalError() {
+        return ConfigureFatalError;
+    }
 
     private static class DestroyMagick {
         public static final FunctionDescriptor DESC = FunctionDescriptor.ofVoid(    );

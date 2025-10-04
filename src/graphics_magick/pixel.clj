@@ -1,9 +1,20 @@
-(ns graphics-magick.pixel)
+(ns graphics-magick.pixel
+  (:import
+   [java.lang.foreign Arena]
+   [magick magick_wand]))
 
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#clonepixelwand clone-pixel-wand
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#clonepixelwands clone-pixel-wands
-;; http://www.graphicsmagick.org/wand/pixel_wand.html#destroypixelwand destroy-pixel-wand
-;; http://www.graphicsmagick.org/wand/pixel_wand.html#newpixelwand new-pixel-wand
+
+;; http://www.graphicsmagick.org/wand/pixel_wand.html#destroypixelwand
+;; TODO: write with-macro for new-pixel-wand and destroy-pixel-wand
+(defn destroy-pixel-wand [wand]
+  (magick_wand/DestroyPixelWand wand))
+
+;; http://www.graphicsmagick.org/wand/pixel_wand.html#newpixelwand
+(defn new-pixel-wand []
+  (magick_wand/NewPixelWand))
+
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#newpixelwands new-pixel-wands
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelgetexception get-exception
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelgetblack get-black
@@ -28,7 +39,14 @@
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetblackquantum set-black-quantum
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetblue set-blue
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetbluequantum set-blue-quantum
-;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetcolor set-color
+
+;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetcolor
+;; TODO: throw exception
+(defn set-color [wand color]
+  (let [arena (Arena/ofConfined)
+        color (.allocateFrom arena color)])
+  (magick_wand/PixelSetColor wand color))
+
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetcolorcount set-color-count
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetcyan set-cyan
 ;; http://www.graphicsmagick.org/wand/pixel_wand.html#pixelsetcyanquantum set-cyan-quantum

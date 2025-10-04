@@ -1,6 +1,6 @@
 (ns graphics-magick.drawing)
 
-http://www.graphicsmagick.org/wand/drawing_wand.html#clonedrawingwand
+;; http://www.graphicsmagick.org/wand/drawing_wand.html#clonedrawingwand
 
 ;; http://www.graphicsmagick.org/wand/drawing_wand.html#clonedrawingwand clone-drawing-wand
 ;; http://www.graphicsmagick.org/wand/drawing_wand.html#destroydrawingwand destroy-drawing-wand

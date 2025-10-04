@@ -589,93 +589,93 @@
 # --include-constant AnnotateFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant AnnotateWarning           # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant BlobBase                  # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant BlobError                 # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant BlobError                 # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant BlobEvent                 # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant BlobFatalError            # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant BlobWarning               # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant BlobFatalError            # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant BlobWarning               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant CacheBase                 # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CacheError                # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CacheError                # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant CacheEvent                # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CacheFatalError           # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CacheWarning              # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CacheFatalError           # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CacheWarning              # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant CoderBase                 # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CoderError                # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CoderError                # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant CoderEvent                # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CoderFatalError           # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CoderWarning              # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CoderFatalError           # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CoderWarning              # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ConfigureBase             # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ConfigureError            # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ConfigureError            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ConfigureEvent            # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ConfigureFatalError       # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ConfigureWarning          # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ConfigureFatalError       # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ConfigureWarning          # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant CorruptImageBase          # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CorruptImageError         # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CorruptImageError         # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant CorruptImageEvent         # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CorruptImageFatalError    # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant CorruptImageWarning       # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CorruptImageFatalError    # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant CorruptImageWarning       # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DelegateBase              # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant DelegateError             # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant DelegateError             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DelegateEvent             # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant DelegateFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant DelegateWarning           # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant DelegateFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant DelegateWarning           # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DeprecateBase             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DeprecateError            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DeprecateEvent            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DeprecateFatalError       # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DeprecateWarning          # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DrawBase                  # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant DrawError                 # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant DrawError                 # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant DrawEvent                 # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant DrawFatalError            # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant DrawWarning               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ErrorException            # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant DrawFatalError            # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant DrawWarning               # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ErrorException            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant EventException            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ExceptionBase             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ExceptionError            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ExceptionEvent            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ExceptionFatalError       # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ExceptionWarning          # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant FatalErrorException       # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant FatalErrorException       # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant FileOpenBase              # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant FileOpenError             # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant FileOpenError             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant FileOpenEvent             # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant FileOpenFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant FileOpenWarning           # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant FileOpenFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant FileOpenWarning           # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ImageBase                 # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ImageError                # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ImageError                # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ImageEvent                # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ImageFatalError           # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ImageWarning              # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ImageFatalError           # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ImageWarning              # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant LocaleBase                # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant LocaleError               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant LocaleEvent               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant LocaleFatalError          # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant LocaleWarning             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant MissingDelegateBase       # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant MissingDelegateError      # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant MissingDelegateError      # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant MissingDelegateEvent      # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant MissingDelegateFatalError # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant MissingDelegateWarning    # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant MissingDelegateFatalError # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant MissingDelegateWarning    # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ModuleBase                # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ModuleError               # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ModuleError               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ModuleEvent               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ModuleFatalError          # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ModuleWarning             # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ModuleFatalError          # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ModuleWarning             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant MonitorBase               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant MonitorError              # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant MonitorError              # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant MonitorEvent              # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant MonitorFatalError         # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant MonitorWarning            # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant MonitorFatalError         # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant MonitorWarning            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant OptionBase                # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant OptionError               # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant OptionError               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant OptionEvent               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant OptionFatalError          # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant OptionWarning             # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant OptionFatalError          # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant OptionWarning             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant RegistryBase              # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant RegistryError             # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant RegistryError             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant RegistryEvent             # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant RegistryFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant RegistryWarning           # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant RegistryFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant RegistryWarning           # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant RenderBase                # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant RenderError               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant RenderEvent               # header: /usr/include/GraphicsMagick/magick/error.h
@@ -686,16 +686,16 @@
 # --include-constant ResourceEvent             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ResourceFatalError        # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ResourceLimitBase         # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ResourceLimitError        # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ResourceLimitError        # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ResourceLimitEvent        # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ResourceLimitFatalError   # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant ResourceLimitWarning      # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ResourceLimitFatalError   # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant ResourceLimitWarning      # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant ResourceWarning           # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant StreamBase                # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant StreamError               # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant StreamError               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant StreamEvent               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant StreamFatalError          # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant StreamWarning             # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant StreamFatalError          # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant StreamWarning             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant TemporaryFileBase         # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant TemporaryFileError        # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant TemporaryFileEvent        # header: /usr/include/GraphicsMagick/magick/error.h
@@ -707,11 +707,11 @@
 # --include-constant TransformFatalError       # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant TransformWarning          # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant TypeBase                  # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant TypeError                 # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant TypeError                 # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant TypeEvent                 # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant TypeFatalError            # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant TypeWarning               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant UndefinedException        # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant TypeFatalError            # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant TypeWarning               # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant UndefinedException        # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant UndefinedExceptionBase    # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant UserBase                  # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant UserError                 # header: /usr/include/GraphicsMagick/magick/error.h
@@ -723,21 +723,21 @@
 # --include-constant WandEvent                 # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant WandFatalError            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant WandWarning               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant WarningException          # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant WarningException          # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant X11Base                   # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant X11Error                  # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant X11Event                  # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant X11FatalError             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant X11Warning                # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant XServerBase               # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant XServerError              # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant XServerError              # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-constant XServerEvent              # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant XServerFatalError         # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-constant XServerWarning            # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant XServerFatalError         # header: /usr/include/GraphicsMagick/magick/error.h
+--include-constant XServerWarning            # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-typedef ErrorHandler               # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-typedef ExceptionBaseType          # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-typedef ExceptionInfo              # header: /usr/include/GraphicsMagick/magick/error.h
-# --include-typedef ExceptionType              # header: /usr/include/GraphicsMagick/magick/error.h
+--include-typedef ExceptionType              # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-typedef FatalErrorHandler          # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-typedef WarningHandler             # header: /usr/include/GraphicsMagick/magick/error.h
 # --include-function CatchException            # header: /usr/include/GraphicsMagick/magick/error.h

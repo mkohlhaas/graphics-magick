@@ -1,7 +1,14 @@
-(ns graphics-magick.magick)
+(ns graphics-magick.magick
+  (:import
+   [java.lang.foreign Arena MemorySegment]
+   [magick magick_wand]))
 
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#clonemagickwand clone-wand
-;; http://www.graphicsmagick.org/wand/magick_wand.html#destroymagickwand destroy-wand
+
+;; http://www.graphicsmagick.org/wand/magick_wand.html#destroymagickwand
+(defn destroy-wand [wand]
+  (magick_wand/DestroyMagickWand wand))
+
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickadaptivethresholdimage adaptive-threshold-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickaddimage add-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickaddnoiseimage add-noise-image
@@ -52,7 +59,14 @@
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgammaimagechannel gamma-image-channel
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgetconfigureinfo get-configure-info
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgetcopyright get-copyright
-;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgetexception get-exception
+
+;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgetexception
+;; https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/foreign/MemorySegment.html#getUtf8String(long)
+(defn get-exception [wand severity]
+  ;; (let [arena    (Arena/ofConfined)]
+        ;; severity (.allocate arena magick_wand/ExceptionType)]
+  (.getUtf8String (magick_wand/MagickGetException wand severity) 0))
+
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgetfilename get-filename
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgethomeurl get-home-url
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickgetimage get-image
@@ -151,7 +165,14 @@
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickqueryformats query-formats
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickradialblurimage radial-blur-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickraiseimage raise-image
-;; http://www.graphicsmagick.org/wand/magick_wand.html#magickreadimage read-image
+
+;; http://www.graphicsmagick.org/wand/magick_wand.html#magickreadimage
+;; TODO: throw an exception if MagickReadImage returns error
+(defn read-image [wand filename]
+  (let [arena     (Arena/ofConfined)
+        filename (.allocateFrom arena filename)]
+    (magick_wand/MagickReadImage wand filename)))
+
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickreadimageblob read-image-blob
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickreadimagefile read-image-file
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickreducenoiseimage reduce-noise-image
@@ -163,7 +184,12 @@
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickresampleimage resample-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickresizeimage resize-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickrollimage roll-image
-;; http://www.graphicsmagick.org/wand/magick_wand.html#magickrotateimage rotate-image
+
+;; http://www.graphicsmagick.org/wand/magick_wand.html#magickrotateimage
+;; TODO: throw an exception if MagickReadImage returns error
+(defn rotate-image [wand background degrees]
+  (magick_wand/MagickRotateImage wand background (double degrees)))
+
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magicksampleimage sample-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickscaleimage scale-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickseparateimagechannel separate-image-channel
@@ -236,9 +262,19 @@
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickunsharpmaskimage unsharp-mask-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwaveimage wave-image
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwhitethresholdimage white-threshold-image
-;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwriteimage write-image
+
+;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwriteimage
+;; TODO: throw an exception if MagickReadImage returns error
+(defn write-image [wand filename]
+  (let [arena     (Arena/ofConfined)
+        filename (.allocateFrom arena filename)]
+    (magick_wand/MagickWriteImage wand filename)))
+
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwriteimagesfile write-images-file
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwriteimageblob write-image-blob
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwriteimagefile write-image-file
 ;; http://www.graphicsmagick.org/wand/magick_wand.html#magickwriteimages write-images
-;; http://www.graphicsmagick.org/wand/magick_wand.html#newmagickwand new-wand
+
+;; http://www.graphicsmagick.org/wand/magick_wand.html#newmagickwand
+(defn new-wand []
+  (magick_wand/NewMagickWand))
